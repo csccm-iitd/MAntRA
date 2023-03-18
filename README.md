@@ -7,7 +7,8 @@ This repository contains code for discovering equations, generating random force
 3) A forcing pickle file is used to generate random force.
 4) In the VB algorithm RVM is used for initialization. You must save the Sparsebayes package (to run RVM) in the folder where the codes are being run.
 5) The Sparsebayes package is given in the repository.
-6) The order for running the codes is as follows:
+6) The necessary code to execute Gibbs sampling for initialization can be found in the Utils directory.
+7) The order for running the codes is as follows:
     1) Drift & Diffusion files for equation discovery
     2) Forcing pickle file to generate random force
     3) Initial & Final prediction file to generate a larger prediction window for reliability
